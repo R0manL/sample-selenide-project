@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel execution - Suite 1">
+    <test name="all" preserve-order="true">
+        <classes>
+            <class name="ui.com.ccc.hv.qa.RegressionTests" />
+            <class name="ui.com.ccc.hv.qa.SmokeTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.AccountTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.BUTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.ChannelAssociationTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.ChannelTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.HomePageTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.ItmsTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.LoginPageTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.OptimizationTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.ProductTests" />
+            <class name="migrated.ui.com.ccc.hv.qa.UserTests" />
+
+            <class name="api.com.ccc.hv.qa.WatermarkTransactionTests" />
+        </classes>
+    </test>
+</suite>
+

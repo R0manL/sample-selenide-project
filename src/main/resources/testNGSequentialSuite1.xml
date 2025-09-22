@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sequential execution - Suite 1">
+    <test name="Regression - BatchODD tests" preserve-order="true">
+        <classes>
+            <class name="ui.com.ccc.hv.qa.RegressionTestsBatchODDTests" />
+        </classes>
+    </test>
+</suite>
+

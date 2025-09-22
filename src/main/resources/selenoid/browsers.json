@@ -1,0 +1,14 @@
+{
+  "chrome": {
+    "default": "latest",
+    "versions": {
+      "latest": {
+        "image": "selenoid/chrome",
+        "port": "4444",
+        "env" : ["TZ=Etc/UTC"],
+        "tmpfs": {"/tmp":"size=512m"}
+      }
+    }
+  }
+}
+

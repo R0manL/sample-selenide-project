@@ -1,0 +1,14 @@
+package com.ccc.hv.qa.ui.pojos;
+
+import lombok.Getter;
+import lombok.experimental.SuperBuilder;
+
+/**
+ * Created by R0manL on 09/01/20.
+ */
+
+@Getter
+@SuperBuilder
+public class AssociationServerSFTP extends AssociationServerWithMetadataDistrOpt {
+   // NONE
+}
