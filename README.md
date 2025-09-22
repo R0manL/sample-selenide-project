@@ -1,4 +1,4 @@
-﻿# Automated testing with Selenide.
+﻿# Sample Selenide automation testing project.
 
 This document describes architecture, how to setup, execute and analyze results of automated tests execution for Hrv project.
 
